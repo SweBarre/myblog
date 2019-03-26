@@ -1,3 +1,8 @@
+---
+publish_date: 03/26/2019 20:00
+taxonomy:
+    tag: [leap15, doh, nginx, certbot]
+---
 I decided to play a bit with [DNS Over HTTPS][1] (DOH) and get access to my [Pi-Hole][2] at home when I'm out traveling. DOH is a protocol that bypass the native resolver and do DNS-query over HTTPS to a dedicated DOH server for resolving names.
 
 When writing this note I'm using [openSUSE Leap 15][3] but it should be relativly easy to convert the steps in any systemd enabled linux. Although DOH specifies that it must run HTTPS there's a HTTP proxy available that I will use and serve behind a NGINX proxy and let [NGINX][6], [Let's Encrypt][5] and [Certbot][4] handle the SSL
