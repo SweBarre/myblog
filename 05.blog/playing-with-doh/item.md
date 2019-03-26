@@ -88,6 +88,9 @@ upstream dohproxy_backend {
 and in the **server {..}** tag add the following
 ```nginx
        location /dns-query {
+	       if ( $request_method !~ ^(GET|POST|HEAD)$ ) {
+                   return 501;
+               }
                proxy_set_header Host $http_host;
                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                proxy_redirect off;
