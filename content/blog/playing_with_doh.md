@@ -1,7 +1,7 @@
 Title: Playing with DOH
 Slug: playing-with-doh
 Date: 2019-03-26
-Tags: leap15, doh, nginx, certbot, firefox
+Tags: leap15, doh, nginx, certbot, firefox, opensuse, systemd
 Summary: Create your own DOH, DNS-over-HTTPS Proxy
 
 I decided to play a bit with [DNS Over HTTPS][1] (DOH) and get access to my [Pi-Hole][2] at home when I'm out traveling. DOH is a protocol that bypass the native resolver and do DNS-query over HTTPS to a dedicated DOH server for resolving names.

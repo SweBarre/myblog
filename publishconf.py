@@ -23,3 +23,12 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+# Blogroll
+LINKS = (
+        ('Tags', SITEURL+'/tags.html'),
+         )
+
+
+#theme
+USER_LOGO_URL= SITEURL + "/images/barre.png"
