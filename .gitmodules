@@ -1,3 +1,6 @@
 [submodule "brutalist"]
-	path = brutalist
+	path = themes/brutalist
 	url = https://github.com/mamcmanus/brutalist.git
+[submodule "themes/pelican-svbhack"]
+	path = themes/pelican-svbhack
+	url = https://github.com/gfidente/pelican-svbhack.git
