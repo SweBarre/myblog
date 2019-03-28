@@ -32,6 +32,7 @@ Restart=no
 
 [Install]
 WantedBy=multi-user.target
+EOF
 ```
 
 I don't want this to be the default way to do name resolution on my system so I don't enable it, but we still have to do a daemon-reload so systemd picks up the changes.
@@ -54,8 +55,11 @@ function doh()
         echo "wrong option, valid: ${options[@]}"
         return
     fi
-    sudo systemctl "$1" local-doh-proxy
-}
+    if [[ "$1" == "status" ]]; then
+        systemctl status local-doh-proxy
+    else
+        sudo systemctl "$1" local-doh-proxy
+    fi
 ```
 
 
