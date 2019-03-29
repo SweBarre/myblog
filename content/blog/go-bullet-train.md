@@ -88,12 +88,12 @@ I do have som issues that I've not figured out yet.
 
 But so far I can live with thouse issues
 
-[gbt_home]: {attach}/images/gbt_home.png "Home directory"
-[gbt_git_dirty]: {attach}/images/gbt_git_dirty.png "Dirty git repo"
-[gbt_git_ahead]: {attach}/images/gbt_git_ahead.png "Git repo ahead"
-[gbt_git_clean]: {attach}/images/gbt_git_clean.png "Git repo clean"
-[gbt_py_venv]: {attach}/images/gbt_py_venv.png "Git repo clean"
-[gbt_remote_host]: {attach}/images/gbt_remote_host.png "Remote host" 
+[gbt_home]: {static}/images/gbt_home.png "Home directory"
+[gbt_git_dirty]: {static}/images/gbt_git_dirty.png "Dirty git repo"
+[gbt_git_ahead]: {static}/images/gbt_git_ahead.png "Git repo ahead"
+[gbt_git_clean]: {static}/images/gbt_git_clean.png "Git repo clean"
+[gbt_py_venv]: {static}/images/gbt_py_venv.png "Git repo clean"
+[gbt_remote_host]: {static}/images/gbt_remote_host.png "Remote host" 
 
 
 [1]: https://github.com/jtyr/gbt

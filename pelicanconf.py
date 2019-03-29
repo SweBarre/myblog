@@ -39,6 +39,8 @@ ROUND_USER_LOGO = False
 #DISQUS_SITENAME=
 TAGLINE="your almond in the cyber porridge"
 
+STATIC_PATHS = ['images']
+
 PLUGINS = [
     'extended_sitemap'
 ]
