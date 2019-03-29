@@ -1,0 +1,21 @@
+#!/bin/bash
+CONTENTPATH=content/blog
+DATE="$(date +'%Y-%m-%d %H:%M:%S')"
+read -p 'Title: ' TITLE
+SLUG="$(echo $TITLE | sed 'y/ÅÄÖåäö/AAOaao/' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)"
+EXT=md
+
+FILENAME="$CONTENTPATH/$SLUG.$EXT"
+
+if [[ -f "$FILENAME" ]];then
+	echo "$FILENAME alredy exists"
+	exit 1
+fi
+read -p 'Tags : ' TAGS
+echo "Title: $TITLE" > "$FILENAME"
+echo "Slug:  $SLUG" >> "$FILENAME"
+echo "Date:  $DATE" >> "$FILENAME"
+echo "Tags:  $TAGS" >> "$FILENAME"
+echo "Sumary: " >> "$FILENAME"
+
+vi "+normal G$" +startinsert "$FILENAME"
