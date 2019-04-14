@@ -2,7 +2,6 @@ Title: Pimp the bash prompt with Go Bullet Train (GBT)
 Slug: go-bullet-train
 Date: 2019-03-30
 Tags: leap15, opensuse, bash, go
-Summary: Pimp the bash prompt with a fast PS1 builder with a lot of ways for you to customize.
 
 Pimp the bash prompt with a fast PS1 builder with a lot of ways for you to customize. Meet the [Go Bullet Train][1]
 I've been playing around with [powerline][2] and quite liked it but I was never really completely satisfied. I though the powerline was quite slow, not extremly slow but slow enough for me to get a bit frustraded. I also thought it was a bit of a hassle to update all my devices with new config when I decided to change the prompt.
@@ -83,7 +82,7 @@ export GBT_CAR_HOSTNAME_HOST_FM='bold'
 
 I do have som issues that I've not figured out yet.
 
--	unable to force pseudo-terminal allocation with the `gbt_ssh` alias
+-	<s>unable to force pseudo-terminal allocation with the `gbt_ssh` alias</s> **fixed in commit [c6fd3ca][5]**
 -	I'm unable to remove the `GBT_CAR_SIGN_USER_TEXT` with prompt forward
 
 But so far I can live with thouse issues
@@ -100,3 +99,4 @@ But so far I can live with thouse issues
 [2]: https://github.com/powerline/powerline
 [3]: https://github.com/jtyr/gbt/blob/master/sources/gbts/README.md
 [4]: https://nerdfonts.com/
+[5]: https://github.com/jtyr/gbt/commit/c6fd3cac1d1ded90f8e60cd243b48b7dc0037c0b

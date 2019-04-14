@@ -2,7 +2,6 @@ Title: Local DOH stub
 Slug: local-doh-proxy
 Date: 2019-03-27
 Tags: leap15, doh, opensuse, systemd, bash
-Summary: To really get the full use of the DOH I created a small systemd unit file on my client so all applications will use my DOH server and not just firefox. 
 
 To really get the full use of the [DOH][1] I created a small systemd unit file on my client so all applications will use my DOH server and not just firefox.
 
