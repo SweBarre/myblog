@@ -1,3 +1,3 @@
 #!/bin/bash
 make publish
-scp -r output/* web:/srv/www/rre.nu
+rsync -r -a -v -e ssh --delete --ignore-existing output/ web:/srv/www/rre.nu/
