@@ -83,7 +83,7 @@ export GBT_CAR_HOSTNAME_HOST_FM='bold'
 I do have som issues that I've not figured out yet.
 
 -	<s>unable to force pseudo-terminal allocation with the `gbt_ssh` alias</s> **fixed in commit [c6fd3ca][5]**
--	I'm unable to remove the `GBT_CAR_SIGN_USER_TEXT` with prompt forward
+-	<s>I'm unable to remove the `GBT_CAR_SIGN_USER_TEXT` with prompt forward</s> **fixed in commit [c02a775][6]**
 
 But so far I can live with thouse issues
 
@@ -91,7 +91,7 @@ But so far I can live with thouse issues
 [gbt_git_dirty]: {static}/images/gbt_git_dirty.png "Dirty git repo"
 [gbt_git_ahead]: {static}/images/gbt_git_ahead.png "Git repo ahead"
 [gbt_git_clean]: {static}/images/gbt_git_clean.png "Git repo clean"
-[gbt_py_venv]: {static}/images/gbt_py_venv.png "Git repo clean"
+[gbt_py_venv]: {static}/images/gbt_py_venv.png "Python Virtual Env"
 [gbt_remote_host]: {static}/images/gbt_remote_host.png "Remote host" 
 
 
@@ -100,3 +100,4 @@ But so far I can live with thouse issues
 [3]: https://github.com/jtyr/gbt/blob/master/sources/gbts/README.md
 [4]: https://nerdfonts.com/
 [5]: https://github.com/jtyr/gbt/commit/c6fd3cac1d1ded90f8e60cd243b48b7dc0037c0b
+[6]: https://github.com/jtyr/gbt/commit/c02a7755e8eaeffeb61597bc3d763251f3c231b4
