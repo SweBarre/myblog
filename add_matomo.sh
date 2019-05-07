@@ -7,7 +7,7 @@ cat << EOF > themes/pelican-svbhack/templates/modules/analytics.html
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//stat.rre.nu/";
+    var u="https://stat.rre.nu/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', '1']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
